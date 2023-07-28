@@ -2,7 +2,6 @@ import os
 
 from model.mpk import MPK
 
-# Author 52pojie l2399007164
 class Main:
     def __init__(self, args):
         self._args = args
