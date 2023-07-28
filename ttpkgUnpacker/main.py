@@ -57,13 +57,13 @@ if __name__ == "__main__":
     js_folder = "js"  # 设置js文件夹的路径
     run_and_delete_ttpkg_js_files(js_folder)
 
-#1
+# 第一版代码
 # import sys
 # from controller.main import Main
 # file_path = ["","js/038d897.ttpkg.js"]
 # Main(file_path).run()
 
-#2
+# 第二版代码
 # import os
 # from controller.main import Main
 # def run_and_delete_ttpkg_js_files(js_folder):
@@ -81,7 +81,7 @@ if __name__ == "__main__":
 #     js_folder = "js"  # 设置js文件夹的路径
 #     run_and_delete_ttpkg_js_files(js_folder)
 
-#3
+# 第三版代码
 # import os
 # from controller.main import Main
 # def run_and_delete_ttpkg_js_files(js_folder):
