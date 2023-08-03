@@ -12,7 +12,13 @@ def copy_files_to_raw_packages(js_folder, file_list):
     raw_packages_folder = os.path.join(js_folder, 'rawPackages')
     for file in file_list:
         file_path = os.path.join(js_folder, file)
-        shutil.copy(file_path, raw_packages_folder)
+        # 使用二进制模式复制文件
+        with open(file_path, 'rb') as f:
+            content = f.read()
+        target_file_path = os.path.join(raw_packages_folder, file)
+        # 使用二进制模式写入文件
+        with open(target_file_path, 'wb') as f:
+            f.write(content)
 
 def run_and_delete_ttpkg_js_files(js_folder):
     # Create rawPackages folder if it doesn't exist
