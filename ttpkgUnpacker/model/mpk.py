@@ -5,7 +5,6 @@ from util.io_helper import IOHelper
 MPK_MAGIC = 'TPKG'
 MPK_VERSION = 131072
 
-# Author 52pojie l2399007164
 class MPK:
     def __init__(self, io):
         self._io = io
