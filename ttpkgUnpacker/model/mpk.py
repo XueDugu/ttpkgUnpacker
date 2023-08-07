@@ -34,7 +34,7 @@ class MPK:
                 size = 'i'
                 name_length = IOHelper.read_struct(io, size)[0]  # 读取接下来的 4 个字节作为整数（文件名长度）
                 if i == 0:
-                    io.seek(3, SEEK_CUR)  # （解除注释）将光标向前移动 3 个字节（跳过未知数据）
+                    io.seek(3, SEEK_CUR)  # 将光标向前移动 3 个字节（跳过未知数据）
                 file_data = IOHelper.read_struct(io, '<' + str(name_length) + 's')[0]  # 读取文件名数据
                 file_name = bytes(file_data).decode(encoding='utf-8')  # 将文件名字节解码为 UTF-8 字符串
                 offset = IOHelper.read_struct(io, '=i')[0]  # 读取接下来的 4 个字节作为大端整数（文件偏移量）
