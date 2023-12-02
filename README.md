@@ -41,3 +41,9 @@ ps:暂时还不能解抖音小游戏的包。
 1024----------------
 
 特别感谢：l2399007164
+
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/XueDugu/ttpkgUnpacker.svg)](https://starchart.cc/XueDugu/ttpkgUnpacker)
+
