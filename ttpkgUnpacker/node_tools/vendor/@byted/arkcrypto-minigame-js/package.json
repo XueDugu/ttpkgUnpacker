@@ -1,0 +1,21 @@
+{
+  "name": "@byted/arkcrypto-minigame-js",
+  "version": "1.0.8",
+  "description": "an encrypt/decrypt library of nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@code.byted.org/luyunfei.0/arkcrypto-minigame-js"
+  },
+  "keywords": [
+    "crypto",
+    "arkcrypto",
+    "encrypt",
+    "encryption"
+  ],
+  "author": "luyunfei",
+  "license": "ISC"
+}
